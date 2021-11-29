@@ -23,5 +23,5 @@ def filterSquares(start, stop):
         print(n)
 
 if __name__ == '__main__':
-    filterSquares(3, 33)
+    filterSquares(3, 9)
     

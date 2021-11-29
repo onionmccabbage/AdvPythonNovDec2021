@@ -1,5 +1,9 @@
 from using_decorators import show_args
 
+# def root(x):
+#     return x**0.5 # anything to the power of 0.5 is the square root
+
+
 @show_args
 def mapRoots(start, number):
     '''
@@ -23,9 +27,9 @@ def genRoots(start, number):
         print (root)
 
 if __name__ == '__main__':
-    # number = int(input('Enter number : '))
+    number = int(input('Enter number : '))
     start = 0
-    number = 12
+    # number = 12
     mapRoots(start, number)
-    compRoots(start, number)
-    genRoots(start, number)
+    # compRoots(start, number)
+    # genRoots(start, number)

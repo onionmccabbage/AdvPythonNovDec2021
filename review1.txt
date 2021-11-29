@@ -1,12 +1,12 @@
-Advanced Python Review Exercise 1
-=================================
+Advanced Python Review Exercise 1 until 2:45 (~1hr)
+================================= share what you built
 Write a function to find the square root of a positive integer
 Ask the user for a number 'n' (check it is a positive numeric integer)
 Print the square roots of the numbers from 1 to 'n' using map
 You could 
 - print each one
 - populate a collection with all the resulting values
-- write the results ot a file
+- write the results to a file
 Optionally, do the same thing using list comprehension and with generator comprehension
 
 Implement a function which takes a single parameter and reports if it is a square number 
@@ -30,7 +30,8 @@ Write your own decorator-function which takes a function as an input
 and nicely displays some intrinsics of that function
 (such as __name__, __doc__, __module__, __dict__ and __str__)
 
-Write an abstract base class which encapsulates properties for 'min' and 'max' and also at least one method. Architect your class so it inherits from this abstract base class
+Write an abstract base class which encapsulates properties for 'min' and 'max' and also at least one method. 
+Architect your class so it inherits from this abstract base class
 
 
 

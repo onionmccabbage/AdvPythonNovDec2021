@@ -19,6 +19,7 @@ def read_lines():
         pass
         # fin.close() # no need to close, since hte 'with' operatopr will auto-close when done
 
+
 def my_read():
     try:
         fin = open('out.txt', 'rt') # 'rt' will read text
