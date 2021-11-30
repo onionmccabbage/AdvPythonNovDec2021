@@ -6,7 +6,7 @@ def main():
     # ask user for valid value of userID
     invalid = True
     while invalid:
-        u = int(float(input('Userr ID?')))
+        u = int(float(input('User ID?')))
         if type(u) == int and u > 0:
             invalid = False
     # use '?' as a placeholder in SQL statements

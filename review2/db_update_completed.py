@@ -8,7 +8,6 @@ def main():
         t = int(float(input('id?')))
         if type(t) == int and t > 0:
             invalid = False
-    invalidQuantity = True
     st = '''
     UPDATE todos
     SET completed = true

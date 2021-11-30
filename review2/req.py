@@ -12,7 +12,7 @@ def populateDB():
         response = requests.get(url)
         data = response.json() # this returns 200 data members (0-199)
         # iterate over the data to populate the db
-        for item in data:
+        for item in data: # here we insert each row into the DB - could be more efficient
             try:
                 curs.execute(st, (item['userId'], item['id'], item['title'], item['completed']))
                 conn.commit()
