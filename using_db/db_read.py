@@ -16,4 +16,5 @@ finally:
 
 # we can explore the 'rows'
 for animal in rows:
-    print(animal)
+    # print(animal)
+    print('Creature:{0}\tcosts {1} each\tand we have {2}.'.format( animal[0], animal[1], animal[2] ))

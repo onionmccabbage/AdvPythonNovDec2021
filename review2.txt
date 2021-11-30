@@ -1,0 +1,32 @@
+Advanced Python Review 2  until tea break at 3:00
+======================== 
+In a new package, write modules to implement a 'todo' service with a database
+You can use the following end-point to get a very large number of 'todos':
+http://jsonplaceholder.typicode.com/todos
+(Remember to import requests)
+
+Details:
+Write a module which will add a new table to your database
+This new table needs columns for 'id' 'userID' 'title' and 'completed'
+(id should be the primary key)
+Decide on suitable SQL data types for these fields
+Write another module which will retrieve the API data and iterate over it to populate this new table
+In Another module, ask the user which userId they are interested in 
+Then retrieve all the 'todos' for that userID (use a 'WHERE' clause in the SQL) and display nicely
+(You will need to validate that the userID is within bounds)
+
+Architecture:
+Use classes, functions and modules as you see fit
+Once the initial database has been created and populated, devise a class to encapslate neat ways to:
+- create new (valid) 'todo' items
+- update existing 'todo' items, e.g. changing the value of 'completed'
+- show only completed 'todo' items for a particular user (or only un-completed items)
+
+Optional:
+Write a context-switching class or function so the results can either be printed to the console or appended to a text file
+This choice could be driven by the user or by a sys.argv parameter
+Consider how you could deal with
+  http://jsonplaceholder.typicode.com/albums  (or /photos or /posts)
+(perhaps create tables for each of these categories)
+Consider how you could use sys.argv parameters to specify which data members to retrieve when running a module
+
