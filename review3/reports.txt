@@ -1,0 +1,8 @@
+Description: clear sky Temperature: 11°C in Athlone
+The wind speed is 5.56 coming from 258° 
+Description: broken clouds Temperature: 8°C in Cork
+The wind speed is 10.29 coming from 320° 
+Description: broken clouds Temperature: 7°C in Athlone
+The wind speed is 9.12 coming from 330° 
+Description: scattered clouds Temperature: 9°C in Galway
+The wind speed is 9.67 coming from 333° 
