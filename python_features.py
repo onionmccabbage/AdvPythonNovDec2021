@@ -12,3 +12,19 @@ j = zip(days, fruits, drink, after) # zip stops when the shortest collection run
 # iterate over our zipped collection
 for d, f, dr, a in j:
     print('On {} I ate {} with {} then {}'.format(d, f, dr, a))
+
+# exploring deque
+# deque is a double-ended queue
+from collections import deque
+def pal(word):
+    dq = deque(word)
+    while len(dq) > 1:
+        if dq.popleft() != dq.pop():
+            return False
+    return True
+
+print( pal('tenet') ) # True
+print( pal('racecar') ) # True
+print( pal('halibut') ) # Fasle
+print( pal('madam im adam') ) # False
+

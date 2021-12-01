@@ -9,7 +9,7 @@ def getInfo(category='todos', id=1): # we can provide sensible defaults
     # append a category and an ID to this url
     api = '{}{}/{}'.format(url, category, id) # this is a REST api
     try:
-        response = requests.get(api)
+        response = requests.get(api) # get lets us pass parameters on the URL
         data = response.json() # we just want hte JSON part of the response
     except Exception as err:
         print('Problem: {}'.format(err))
@@ -18,4 +18,12 @@ def getInfo(category='todos', id=1): # we can provide sensible defaults
     print(data)
 
 if __name__ == '__main__':
-    getInfo('users', 7)
+    # we can check if any system aruments were received
+    if len(sys.argv) > 1:
+        category = sys.argv[1]
+        id       = sys.argv[2]
+    else: # NB we could ask the user here...
+        category = 'albums'
+        id       = 3
+    getInfo(category, id)
+    

@@ -1,4 +1,4 @@
-Python Review 3
+Python Review 3 for 1hr 45min - we'll take tea break at 3:00 so this exercise ends at 3:45
 ===============
 There is a REST API here:
 http://api.openweathermap.org/data/2.5/weather?q=athlone,ie&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
